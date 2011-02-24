@@ -6,5 +6,12 @@ $this->breadcrumbs=array(
 ?>
 <h1>About</h1>
 
-<p>This is a "static" page. You may change the content of this page
-by updating the file <tt><?php echo __FILE__; ?></tt>.</p>
+<p>This is a php version of <tt><a href="http://simplecd.org" target="_blank">simplecd</a></tt>.</p>
+
+<h1>Dominate</h1>
+
+<p>Dominate is welcomed both in money and <tt><a href="#" title="!!! make sure u r a girl & lives in Beijing !!!">sex</a></tt>.</p>
+
+<h1>Commit to this Project</h1>
+
+<p>I will push the code to <tt>github</tt> soon.</p>
