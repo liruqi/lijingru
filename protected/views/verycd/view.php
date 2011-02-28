@@ -69,6 +69,12 @@ function emlink($ed2k, $id) {
             $i += 3;
         }
         else {
+            if (substr($links[$i], 0, 4) !== 'ed2k') {
+                $links[$i] = base64_decode($links[$i]);
+                $parts = explode('|', $links[$i]);
+                $links[$i+1]=$parts[2];
+                #print '<p>'.$links[$i+1].'</p>';
+            }
             $rtn .= sprintf($template, $links[$i], $name,$links[$i],$links[$i],$links[$i+1],$name,emsize($links[$i]));
             $i += 2;
         }
