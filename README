@@ -1,1 +1,4 @@
 A php version of simplecd, intended to create a web entrance for p2p network resource, maintained in the manner of wikipedia
+
+Requirement:
+To deploy this site, you need to set ../../yii-1.1.6.r2877/ as your yii framework code
